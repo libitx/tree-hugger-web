@@ -1,0 +1,25 @@
+<div class="mw7 center">
+  <header class="mb5 pb4 | c-header">
+    <img src="/images/tree.png"
+      srcset="/images/tree.png 1x, /images/tree@2x.png 2x"
+      class="db center w-100 mb4"
+      style="max-width: 460px;" />
+
+    <h1 class="mv0 bario f1 f-subheadline-ns fw4 lh-title dark-green tc"><%= config.title %></h1>
+    <h2 class="mt0 sans-serif mb4 f6 f5-ns lh-title fw6 mid-gray tc"><%= config.subtitle %></h2>
+
+    <p class="mw6 center mv0 pv3 f4 f3-ns lh-copy i tc"><%= config.description %></p>
+  </header>
+
+  <main class="mw6 center | c-content">
+    <%- page.content %>
+  </main>
+
+  <footer class="mt5 pt4 | c-footer">
+    <p class="mv2 sans-serif f6 lh-title fw6 silver tc">
+      <span class="mid-gray">Built by <a href="https://twitter.com/libitx" class="link blue hover-hot-pink">Libs</a></span> &bullet;
+      <span class="mid-gray">Copyright &copy; 2019 libitx</span> &bullet;
+      <span class="mid-gray"><a href="https://github.com/libitx/tree-hugger/blob/master/LICENSE.md" class="link blue hover-hot-pink">MIT licensed</a></span>
+    </p>
+  </footer>
+</div>
